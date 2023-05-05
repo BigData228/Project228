@@ -1,0 +1,21 @@
+#Web Integration HTML Embed Code:
+
+<div class='tableauPlaceholder' id='viz1683330588107' style='position: relative'><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;The_Beatles&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='The_Beatles&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;The_Beatles&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1683330588107');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='2027px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
+#Web_Integration steps:
+1)Once we have all the dimension tables and fact tables in the Google BigQuery data warehouse, the next step is to integrate it with Tableau to perform visualizations and create a dashboard. This table in the Google BigQuery can be easily migrated to Tableau Desktop by establishing an OAuth connection through the registered google account.
+2)Once the authorization has been made, we can drag and drop all the required data tables into our Tableau and finally establish the connection. An extensive list of visualizations has been documented in the next section. For the rest of this section, we will explain how we have integrated our Tableau dashboard with a website that we created using Google Sites and ultimately created a web-based interface.
+3)Publishing our Tableau dashboard: In order to embed our Tableau dashboard, we have first published it to Tableau Public.
+4)Copying the embed code: Once our dashboard is published, we have opened it in a web browser and have copied the embed code in the share options.
+5)Creating Google Sites: The next step is to create a website using Google Sites and paste the embed code of our Tableau dashboard. We have also defined our layout and created a UI for the home page as can be seen in the figure below.
+6)Saving and publishing our website: Once we have embedded our Tableau dashboard with our website, the final step is to publish it and make our website live.
+7)Once the website and its UI has been designed, the next step is to establish a SSO (Single Sign-On) login for our website using AuthPro. AuthPro is a great tool as it uses industry-standard encryption and security practices to protect user data and prevent unauthorized access. Thus, by using AuthPro's SSO login, we can easily take advantage of these security measures to protect our website and its users. 
+8)The first step is to create an account on AuthPro and register our website by providing its URL.
+9)This is followed by registering all our members and creating login credentials for all of them for safe login.
+10)Once all the members have been registered, the next step is to create a login page for our website and incorporate it with AuthPro.
+11)Once our website is incorporated with AuthPro, the final step is publish it and make it live.
+Website URL: https://sites.google.com/sjsu.edu/thebeatles/login-page?authuser=2
+
+
+
